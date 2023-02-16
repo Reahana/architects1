@@ -207,11 +207,44 @@ color: #727272;
     
 }
 /* facts */
+.some-facts{
+    margin-left: 200px;
+    margin-right: 150px;
+}
+.fact-title{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+.fact-para{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin-bottom: 100px;
+    margin-top: 24px;
+    margin-right: 800px;
+}
 .facts{
-    border: 2px solid;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-bottom: 180px;
 }
 .fact{
-    border: 2px solid;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    text-align: center;
+    padding: 40px;
+}
+.fact-no{
+    font-weight: 600;
+    font-size: 45px;
+    color: #424242;
+}
+.fact-info{
+    font-weight: 600;
+font-size: 20px;
+color: #727272;
 }
 
 
