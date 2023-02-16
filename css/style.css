@@ -269,4 +269,18 @@ margin: 24px 500px 50px 500px;
     margin-bottom: 130px;
 }
 
-
+/* footer */
+footer{
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 200px;
+}
+.footer{
+    text-align: center;
+    background: #FFF4E7;
+    border-radius: 8px;
+    padding: 38px 280px;
+    font-weight: 400;
+    font-size: 20px;
+    color: #424242;
+}
