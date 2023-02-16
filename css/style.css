@@ -246,6 +246,27 @@ color: #727272;
 font-size: 20px;
 color: #727272;
 }
-
+/* Sponsors */
+.sponsor-title{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    text-align: center;
+}
+.sponsor-para{
+    font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+color: #727272;
+margin: 24px 500px 50px 500px;
+}
+.sponsors{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 130px;
+}
 
 
