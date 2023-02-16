@@ -186,7 +186,9 @@ font-size: 16px;
 line-height: 26px;
 color: #727272;
 }
+
 .architect img{
+    position: relative;
     width: 708px;
     height: 982px;
 }
@@ -200,6 +202,9 @@ color: #727272;
     font-size: 55px;
     width: 280px; 
     height: 180px; 
+    position: absolute;
+    left: 780px;
+    top: 3030px;
 }
 .experience{
     font-weight: 500;
@@ -235,12 +240,18 @@ color: #727272;
     border-radius: 8px;
     text-align: center;
     padding: 40px;
+    transition: transform 1s;
+}
+.fact:hover{
+    cursor: pointer;
+    transform: translate(10px,-50px) scale(1.25);
 }
 .fact-no{
     font-weight: 600;
     font-size: 45px;
     color: #424242;
 }
+
 .fact-info{
     font-weight: 600;
 font-size: 20px;
